@@ -29,6 +29,7 @@ fn main() {
     if let Err(e) = set_database() {
         println!("Error: {}", e);
         return;
+        
     }
 
     //start server and print port
